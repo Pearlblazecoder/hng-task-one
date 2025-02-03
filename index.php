@@ -5,7 +5,7 @@ header("Content-Type: application/json"); // Response format
 // Check if 'number' parameter exists
 if (!isset($_GET['number']) || !is_numeric($_GET['number'])) {
     echo json_encode(["number" => $_GET['number'] ?? null, "error" => true]);
-    http_response_code(400);
+    // http_response_code(400);
     exit;
 }
 
