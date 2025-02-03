@@ -10,7 +10,10 @@ A simple PHP API that classifies a number based on its mathematical properties.
 
 ## API Specification
 
-**Endpoint:** `GET http://localhost:8000/api/classify-number?number=<number>`
+**Endpoint:** 
+`GET http://localhost:8000/api/classify-number?number=<number>` for local sever
+`GET https://hng-task-one-production.up.railway.app/api/classify-number?number=<number>` for production server
+
 
 **Parameters:**
 
